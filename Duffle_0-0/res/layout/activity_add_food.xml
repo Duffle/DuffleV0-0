@@ -1,0 +1,77 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddFoodActivity" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fill in the information below to create a new food!"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+   <EditText
+       android:id="@+id/foodName"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="10dp"
+       android:ems="10"
+       android:hint="Food Name" >
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/calorieCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="Calories"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/proteinCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="Protein"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/fatCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="Fat"
+        android:inputType="number" />
+
+    <Spinner
+        android:id="@+id/foodType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/foodTypeList" />
+    
+    <LinearLayout
+            android:id="@+id/newFoodFooter"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/submitButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_marginTop="10dp"
+                android:gravity="center|fill"
+                android:onClick="addMealClick"
+                android:text="Finished" />
+            
+        </LinearLayout>
+
+</LinearLayout>

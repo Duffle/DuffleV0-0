@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.duffle_0_0"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="16" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.duffle_0_0.HomeActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.duffle_0_0.FitnessActivity"
+            android:label="@string/title_activity_fitness"
+            android:parentActivityName="HomeActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="HomeActivity" />
+        </activity>
+        <activity
+            android:name="com.example.duffle_0_0.FoodActivity"
+            android:label="@string/title_activity_food"
+            android:parentActivityName="HomeActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="HomeActivity" />
+        </activity>
+        <activity
+            android:name="com.example.duffle_0_0.AddWorkoutActivity"
+            android:label="@string/title_activity_add_workout"
+            android:parentActivityName="FitnessActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="FitnessActivity" />
+        </activity>
+        <activity
+            android:name="com.example.duffle_0_0.ModifyWorkoutActivity"
+            android:label="@string/title_activity_modify_workout"
+            android:parentActivityName="FitnessActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="FitnessActivity" />
+        </activity>
+        <activity
+            android:name="com.example.duffle_0_0.ListWorkoutActivity"
+            android:label="@string/title_activity_list_workout"
+            android:parentActivityName="FitnessActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="FitnessActivity" />
+        </activity>
+        <activity
+            android:name="com.example.duffle_0_0.AddFoodActivity"
+            android:label="@string/title_activity_add_food"
+            android:parentActivityName="FoodActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="FoodActivity" />
+        </activity>
+        <activity
+            android:name="com.example.duffle_0_0.ModifyFoodActivity"
+            android:label="@string/title_activity_modify_food"
+            android:parentActivityName="FoodActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="FoodActivity" />
+        </activity>
+        <activity
+            android:name="com.example.duffle_0_0.ListFoodActivity"
+            android:label="@string/title_activity_list_food" >
+        </activity>
+        <activity
+            android:name="com.example.duffle_0_0.SearchWorkoutActivity"
+            android:label="@string/title_activity_search_workout"
+            android:parentActivityName="FitnessActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="FitnessActivity" />
+        </activity>
+        <activity
+            android:name="com.example.duffle_0_0.EditWorkoutActivity"
+            android:label="@string/title_activity_edit_workout"
+            android:parentActivityName="FitnessActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="FitnessActivity" />
+        </activity>
+        <activity
+            android:name="com.example.duffle_0_0.EditFoodActivity"
+            android:label="@string/title_activity_edit_food"
+            android:parentActivityName="FoodActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="FoodActivity" />
+        </activity>
+    </application>
+
+</manifest>

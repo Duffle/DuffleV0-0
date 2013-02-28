@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FoodActivity" >
+
+    <Button
+        android:id="@+id/addFoodButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_weight="1"
+        android:gravity="center|fill"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="38dp"
+        android:text="Add a Food"
+        android:onClick="addFoodClick" 
+         />
+
+    <Button
+        android:id="@+id/modFoodButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_weight="1"
+        android:gravity="center|fill"
+        android:layout_below="@+id/addFoodButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="29dp"
+        android:text="Modify Foods"
+        android:onClick="modFoodClick"  />
+    
+    <Button
+        android:id="@+id/searchFoodButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_weight="1"
+        android:gravity="center|fill"
+        android:layout_below="@+id/modFoodButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="29dp"
+        android:text="Search Foods"
+        android:onClick="searchFoodClick"  />
+        
+    <Button
+        android:id="@+id/listFoodsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_weight="1"
+        android:gravity="center|fill"
+        android:layout_below="@+id/searchFoodButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="29dp"
+        android:onClick="listFoodClick"
+        android:text="List Food" />
+
+</RelativeLayout>

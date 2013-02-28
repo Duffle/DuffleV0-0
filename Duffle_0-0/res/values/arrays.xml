@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="difficultylist">  
+        <item>@string/easy</item>  
+        <item>@string/medium</item>  
+        <item>@string/hard</item>   
+    </string-array>
+    
+    <string-array name="mealTypeList">  
+        <item>@string/breakfast</item>  
+        <item>@string/lunch</item>  
+        <item>@string/dinner</item> 
+        <item>@string/snack</item>  
+    </string-array>
+    
+    <string-array name="foodTypeList">  
+        <item>@string/meatAndBeans</item>  
+        <item>@string/grains</item>  
+        <item>@string/vegetables</item> 
+        <item>@string/fruits</item> 
+        <item>@string/fats</item>
+        <item>@string/dairy</item> 
+    </string-array>
+    
+    <string-array name="workout_array">
+        <item>Cardio</item>
+        <item>Lifting</item>
+        <item>Yoga</item>
+        <item>Plyometrics</item>
+        <item>Sport</item>
+    </string-array>
+</resources>

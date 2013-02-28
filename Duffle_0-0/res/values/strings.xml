@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Duffle v0.0</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="calendar">Calendar</string>
+    <string name="food">Food</string>
+    <string name="fitness">Fitness</string>
+    <string name="Home">Home</string>
+    <string name="name_prompt">Name:</string>
+    <string name="workout_name">Workout name:</string>
+    <string name="newRecipe">New Recipe</string>
+    <string name="newFood">New Food</string>
+    <string name="addMeal">Add Meal</string>
+    <string name="title_activity_food">Food</string>
+    <string name="title_activity_new_food">New Food</string>
+    <string name="title_activity_new_recipe">New Recipe</string>
+    <string name="newRecipeDescription">Fill in the information below to create a new recipe!</string>
+    <string name="easy">Easy</string>
+    <string name="medium">Medium</string>
+    <string name="hard">Hard</string>
+    <string name="recipeDifficulty">Recipe Difficulty</string>
+    <string name="recipeName">Recipe Name</string>
+    <string name="recipeListInstr">List of Ingredients (ex. 2 eggs, 1.5 tsp salt, 3 cups water, etc.)</string>
+    <string name="cookingInstr">Cooking Instructions</string>
+    <string name="prepTime">Prep Time</string>
+    <string name="cookTime">Cook Time</string>
+    <string name="finished">Finished!</string>
+    <string name="title_activity_add_meal">AddMealActivity</string>
+    <string name="addMealDesc">Add A Meal!</string>
+    <string name="breakfast">Breakfast</string>
+    <string name="lunch">Lunch</string>
+    <string name="dinner">Dinner</string>
+    <string name="snack">Snack</string>
+    <string name="foodAte">What did you eat?</string>
+    <string name="numCalories">How many calories?</string>
+    <string name="newFoodDesc">Fill in the information below to enter a new food!</string>
+    <string name="foodName">Food Name</string>
+    <string name="calories">Number of Calories</string>
+    <string name="protein">Grams of Protein</string>
+    <string name="fat">Grams of Fat</string>
+    <string name="meatAndBeans">Meat + Beans</string>
+    <string name="vegetables">Vegetable</string>
+    <string name="fruits">Fruit</string>
+    <string name="grains">Grains</string>
+    <string name="dairy">Dairy</string>
+    <string name="fats">Fats + Oils</string>
+    <string name="title_activity_fitness">Fitness</string>
+    <string name="title_activity_add_workout">Add Workout</string>
+    <string name="workout_type">Workout Type</string>
+    <string name="add_a_workout">Add a Workout</string>
+    <string name="modify_workouts">Modify Workouts</string>
+    <string name="search_workouts">Search Workouts</string>
+    <string name="list_workouts">List Workouts</string>
+    <string name="title_activity_list_workout">List Workouts</string>
+    <string name="title_activity_modify_workout">Modify Workouts</string>
+    <string name="title_activity_edit_workout">Edit Workout</string>
+    <string name="title_activity_search_workout">SearchWorkoutActivity</string>
+    <string name="title_activity_add_food">AddFoodActivity</string>
+    <string name="title_activity_modify_food">ModifyFoodActivity</string>
+    <string name="title_activity_list_food">ListFoodActivity</string>
+    <string name="title_activity_edit_food">EditFoodActivity</string>
+
+</resources>

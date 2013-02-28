@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FitnessActivity" >
+
+    <Button
+        android:id="@+id/addWorkoutButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_weight="1"
+        android:gravity="center|fill"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="38dp"
+        android:text="Add a Workout"
+        android:onClick="addWorkoutClick" 
+         />
+
+    <Button
+        android:id="@+id/modWorkoutButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_weight="1"
+        android:gravity="center|fill"
+        android:layout_below="@+id/addWorkoutButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="29dp"
+        android:text="Modify Workouts"
+        android:onClick="modWorkoutClick"  />
+    
+    <Button
+        android:id="@+id/searchWorkoutButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_weight="1"
+        android:gravity="center|fill"
+        android:layout_below="@+id/modWorkoutButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="29dp"
+        android:text="Search Workouts"
+        android:onClick="searchWorkoutClick"  />
+        
+    <Button
+        android:id="@+id/listWorkoutsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_weight="1"
+        android:gravity="center|fill"
+        android:layout_below="@+id/searchWorkoutButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="29dp"
+        android:onClick="listWorkoutsClick"
+        android:text="List Workouts" />
+
+</RelativeLayout>
