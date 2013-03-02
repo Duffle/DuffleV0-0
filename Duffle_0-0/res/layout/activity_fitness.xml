@@ -56,5 +56,18 @@
         android:layout_marginTop="29dp"
         android:onClick="listWorkoutsClick"
         android:text="List Workouts" />
+    
+    <Button
+        android:id="@+id/findFitEventsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_weight="1"
+        android:gravity="center|fill"
+        android:layout_below="@+id/listWorkoutsButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="29dp"
+        android:onClick="findFitEventsClick"
+        android:text="Find Fit Events" />
 
 </RelativeLayout>

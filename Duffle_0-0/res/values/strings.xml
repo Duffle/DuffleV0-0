@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Duffle v0.0</string>
+    <string name="app_name">Duffle v0.72</string>
     <string name="hello_world">Hello world!</string>
     <string name="menu_settings">Settings</string>
     <string name="calendar">Calendar</string>
@@ -61,5 +61,8 @@
     <string name="title_activity_modify_food">ModifyFoodActivity</string>
     <string name="title_activity_list_food">ListFoodActivity</string>
     <string name="title_activity_edit_food">EditFoodActivity</string>
+    <string name="title_activity_find_local_events">FindLocalEventsActivity</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_find_event">FindEventActivity</string>
 
 </resources>

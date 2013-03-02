@@ -7,6 +7,8 @@
     <uses-sdk
         android:minSdkVersion="8"
         android:targetSdkVersion="16" />
+    	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
         android:allowBackup="true"
@@ -105,6 +107,10 @@
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="FoodActivity" />
+        </activity>
+        <activity
+            android:name="com.example.duffle_0_0.FindEventActivity"
+            android:label="@string/title_activity_find_event" >
         </activity>
     </application>
 
