@@ -39,11 +39,6 @@ public class FitnessActivity extends Activity {
 			//startActivity(i);
 		}
 		
-		public void listWorkoutClick(View view){
-			Intent i= new Intent(this,ListWorkoutActivity.class);
-			startActivity(i);
-		}
-		
 		public void findFitEventsClick(View view){
 			Intent i= new Intent(this,FindEventActivity.class);
 			startActivity(i);
